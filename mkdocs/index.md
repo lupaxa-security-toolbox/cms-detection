@@ -18,17 +18,10 @@ cms-detection https://example.com
 
 You can also run `python -m lupaxa.cms_detection`.
 
-## What it does
+## What it Does
 
 - Scores homepage signals (generator meta, headers, cookies, script hosts)
 - Fetches a few well-known public files when identity or version is still missing
 - Optionally runs broader path probes with `--active`
 - Never treats a bare HTTP 200 as a path hit — the response must contain a matching snippet
 - Returns one best `cms`, other `candidates`, evidence, and confidence
-
-## Next steps
-
-- [Getting started](getting-started.md) — install and first run
-- [Usage](usage.md) — CLI flags and the library API
-- [Reference](reference.md) — result fields and confidence rules
-- [Examples](examples.md) — text, JSON, and file-of-URLs recipes

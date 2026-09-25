@@ -1,6 +1,6 @@
 # Reference
 
-## Result fields
+## Result Fields
 
 `DetectResult` is a frozen dataclass. Unknown CMS is success: `cms` is
 `None` and `error` is empty.
@@ -18,7 +18,7 @@
 `Evidence` fields: `kind` (`meta_generator`, `header`, `cookie`, `script`,
 `path`), `value` (what was seen), and `cms` (which signature it supported).
 
-## Confidence rules
+## Confidence Rules
 
 Each matching signal adds points used only to pick the winner. Points are
 not shown in the CLI.

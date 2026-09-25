@@ -1,4 +1,4 @@
-# Getting started
+# Getting Started
 
 ## Requirements
 
@@ -27,7 +27,7 @@ Module entry point:
 python -m lupaxa.cms_detection --version
 ```
 
-### From source (development)
+### From Source (Development)
 
 ```bash
 make init
@@ -35,7 +35,7 @@ make python-install-dev
 cms-detection --version
 ```
 
-## First run
+## First Run
 
 Default mode fetches the homepage, then confirm files for CMS that already
 scored:
@@ -55,7 +55,7 @@ cms-detection https://example.com --active
 If the URL has no scheme, the tool tries `https://` first and falls back to
 `http://` only if TLS or connect fails.
 
-## Makefile helpers
+## Makefile Helpers
 
 ```bash
 make init                 # clone makefile-skills into .makefiles/

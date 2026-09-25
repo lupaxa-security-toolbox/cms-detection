@@ -4,20 +4,13 @@
   </a>
 </p>
 
-<h1 align="center">cms-detection</h1>
+<h1 align="center">CMS Detection</h1>
 
 Identify which CMS a website is using from public signals — name, evidence,
 version when it is exposed, and a confidence rating.
 
-> [!WARNING]
-> **Authorised use only.** Use this tool for authorised security-assessment
-> recon only. You must have permission to test the target.
-
-<p align="center">
-  <a href="https://cms-detection.thelupaxaproject.org/">Documentation</a>
-  ·
-  <a href="https://github.com/lupaxa-security-toolbox/cms-detection">GitHub</a>
-</p>
+> **Warning:** **Authorised use only.** Use this tool for authorised
+> security-assessment recon only. You must have permission to test the target.
 
 ## Install
 
@@ -55,6 +48,17 @@ print(result.cms, result.version, result.confidence)
 make init
 make python-install-dev
 make python-check
+```
+
+## Documentation
+
+The published guide is at
+<https://cms-detection.thelupaxaproject.org/>.
+
+Site Markdown lives in `mkdocs/`.
+
+```bash
+python -m pip install -r requirements.txt
 make mkdocs-serve
 ```
 

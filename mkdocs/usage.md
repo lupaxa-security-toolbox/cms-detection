@@ -3,7 +3,7 @@
 Input is a single URL, or a file of URLs (one per line). If the argument
 exists as a file, it is read as a list; otherwise it is treated as a URL.
 
-## CLI flags
+## CLI Flags
 
 | Flag              | Default | Description                                         |
 | :---------------- | :------ | :-------------------------------------------------- |

@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "lupaxa-cms-detection"
 dynamic = ["version"]
 description = "Detect which CMS a website is using from public signals."
-readme = "README-PYPI.md"
+readme = "README.md"
 license = { file = "LICENCE" }
 requires-python = ">=3.10"
 
@@ -70,7 +70,6 @@ path = "src/lupaxa/cms_detection/version.py"
 include = [
   "src/**",
   "README.md",
-  "README-PYPI.md",
   "LICENCE",
 ]
 

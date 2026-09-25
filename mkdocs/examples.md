@@ -1,6 +1,6 @@
 # Examples
 
-## Text (default)
+## Text (Default)
 
 ```bash
 cms-detection https://example.com
@@ -41,7 +41,7 @@ cms-detection urls.txt --workers 4 --delay 0.2
 Each URL is independent. `detect_many` and the CLI return results in input
 order.
 
-## Active probes
+## Active Probes
 
 Default mode stops after homepage scoring plus confirm files for CMS that
 already scored. `--active` adds broader path probes, and when the homepage
